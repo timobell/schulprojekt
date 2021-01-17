@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    background: linear-gradient(90deg, white, lightgray, darkgray, lightgray, white);
+    color: black;
+    padding: 15px;
+    margin: 0;
+}
+.backlink {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: courier;
+}
+
+a.backlink {
+    text-decoration: none;
+}
+
+a.backlink:hover {
+    font-size: larger;
+}
